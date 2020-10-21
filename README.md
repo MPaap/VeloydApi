@@ -2,7 +2,7 @@
 
 # app.veloyd.nl PHP API
 
-`composer required m-paap/veloyd-api`
+`composer require m-paap/veloyd-api`
 
 ## Examples
 
@@ -35,7 +35,7 @@ $parcel = $veloyd->options(
 );
 ```
 
-Create order
+Create parcel delivery request
 ```
 $address = new \Veloyd\Resources\Address(
     $name,
